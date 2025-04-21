@@ -1,0 +1,43 @@
+.form-control {
+  border: 1px solid purple;
+}
+label {
+  margin-bottom: 5px;
+}
+.btns {
+  float: right;
+}
+button {
+  margin: 10px;
+  border: none;
+  background: rgb(2, 0, 36);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  width: 70px;
+}
+button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(175, 0, 255, 1) 76%
+  );
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}

@@ -1,0 +1,40 @@
+.btns {
+  float: right;
+}
+button {
+  margin: 10px;
+  border: none;
+  background: rgb(2, 0, 36);
+  padding: 10px;
+  border-radius: 6px;
+  color: white;
+  width: 80px;
+  cursor: pointer;
+}
+button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(175, 0, 255, 1) 76%
+  );
+}
+
+.title-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.title-content span {
+  color: gray;
+}
+
+.body-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.body-content span {
+  color: gray;
+}
