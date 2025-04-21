@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "username": "Keith Downs 1",
+      "userage": "25",
+      "id": "1"
+    },
+    {
+      "username": "Carolyn Castaneda",
+      "userage": "31",
+      "id": "3"
+    },
+    {
+      "id": 0,
+      "username": "Ben 10",
+      "userage": "10"
+    }
+  ]
+}
