@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 2px solid black;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90.5vh;
+}
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+}
